@@ -81,11 +81,10 @@ main{
 .expecificacoes{
     background-color: lightgray;
     padding: 1rem;
-    width: 800px;
     text-align: center;
-    margin: auto;
     font-size: 1.4rem;
     color: grey;
+    width: 300px;
 }
 
 .contato-logos{
@@ -114,4 +113,22 @@ footer{
     font-size: 1rem;
     bottom: 0;
     padding: 10px;
+}
+
+.info{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.cabeca{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
 }
