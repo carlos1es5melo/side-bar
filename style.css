@@ -12,7 +12,7 @@ a{
 }
 
 header{
-    background-color: rgb(27, 27, 27);
+    background-color: grey;
     padding: 10px;
 }
 
@@ -48,4 +48,70 @@ nav a:hover{
 main{
     padding: 10px;
     transition: margin-left 0.5s;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.title{
+    background-color: lightgray;
+    padding: 1rem;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: 1.4rem;
+    color: grey;
+}
+
+.nome-empresa{
+    font-family: Garamond, serif;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.empresa{
+    background-color: gray;
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.expecificacoes{
+    background-color: lightgray;
+    padding: 1rem;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: 1.4rem;
+    color: grey;
+}
+
+.contato-logos{
+    text-decoration: none;
+    color: grey;
+}
+
+.contato-info{
+    background-color: lightgray;
+    padding: 1rem;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: 1.4rem;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer{
+    background-color: rgb(243, 243, 243);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    bottom: 0;
+    padding: 10px;
 }

@@ -5,21 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="./prog.js"defer></script>
 </head>
 <body>
     <header>
-        <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9976; Abrir</a>
+        <a href="#" class="btn-abrir" onclick="abrirMenu()"><i class="fa-solid fa-bars"></i></a>
     </header>
     <nav id="menu">
         <a href="#" onclick="fecharMenu()">&times; Fechar</a>
-        <a href="#">Home</a>
+        <a href="./index.html">Home</a>
         <a href="#">Sobre</a>
-        <a href="#">Contato</a>
+        <a href="./contato.html">Contato</a>
     </nav>
     <main id="conteudo">
-        <h1>Exemplo de sidenav</h1>
-        <p>Conteúdo da página</p>
+        <div class="title"><h1>Projeto de inovação</h1></div>
+        <div class="empresa">
+            <div class="nome-empresa"><h2>NoStock</h2></div>
+            <div class="logo"></div>
+        </div>
+        <div class="expecificacoes">
+            <p>A <strong>NoStock</strong> é uma empresa de revenda sustentável, focada na revenda de produtos : <br><br>
+            Com pequenas falhas estéticas <br>
+            Com excesso de estoque <br>
+            Fora da embalagem original <br>
+            Recondicionados, mas 100% funcionais <br>
+        </p>
+        </div>
+
+        <div class="expecificacoes">
+            <p>A empresa tem como foco resolver diversos problemas, como estoque parado, que resulta em alto prejuízo, o descarte desnecessário de produtos funcionais com defeitos estéticos ou que não alteram no desempenho do produto, a necessidade por produtos de baixo custo, e a diminuição do lixo eletrônico</p>
+        </div>
+        
     </main>
+    <footer>
+        <p>By &copy;Carlos</p>
+    </footer>
 </body>
 </html>
